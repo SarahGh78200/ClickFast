@@ -1,29 +1,35 @@
-ClickFast ⏩
-Sois le plus rapide des clickers du game ⚡
+<p align="center">
+    <img src="assets/image/logo.svg" width="256">
+</p>
 
-Comment utiliser le projet ?
-Lancez index.html et voilà !
+<h1 align="center">
+    Click Speed test ⚡
+</h1>
 
-Tips
-Terminalg
-1. Raccourcis
-tab : appuyer sur tab pour compléter le mot qu'on est en train d'écrire
-2. Commandes
-cd : se déplacer vers un dossier : cd MonDossier ou cd Mondossier/sous-dossier/sous-sous-dossier cd .. = remonter dans dossier parent
-ls : lister les éléments dans le dossier où on se trouve
-git init : créer un repository (ou dépot) git dans le dossier où on se trouve
-3. Commandes Git
-git status : Montre les fichiers qui ont été modifiés mais pas encore sauvegardés.
-git diff ou git diff mon_fichier : Affiche les changements faits par rapport à la dernière sauvegarde, pour tous les fichiers ou un fichier spécifique.
-git log : voir les commits réalisés
-git add mon_fichier : ajouter des fichiers à sauvegarder
-git commit -m "J'ai fait telle chose : nommer une nouvelle sauvegarde
-git push : envoyer les sauvegardes vers GitHub
-git remote -v : voir les connexions entre notre dossier local (dans l'ordi) et les éléments en ligne (connexion au repository GitHub, ou autres)
-Comment le projet a été créé ?
-Aller ou on veut pour créer un projet dans un endroit rangé ex:
-  cd Desktop
+<p align="center">
+    Clicks-per-second meter with dynamic counting and auto reset.
+</p>
+<p align="center">
+    <a href="https://github.com/FelixLuciano/clicks/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/FelixLuciano/clicks/actions/workflows/pages/pages-build-deployment/badge.svg" alt="pages-build-deployment"></a>
+</p>
 
-  mkdir ClickFast
+<br>
 
-  ls # on voit qu'on a un dossier ClickFast qui a été créé
+![App screenshot](assets/image/screenshot.jpg)
+
+
+## Features
+
+The app features a dynamic counting system, which means that it continuously updates the clicks-per-second count as the user clicks in real-time. It also has an automatic reset feature, which clears the count after a certain amount of time has passed, allowing users to track their CPS over multiple sessions. The app also includes a rate history, that stores and displays the user's best clicking speed, allowing them to track their progress and see how their clicking speed has changed.
+
+This app is useful if you want to improve your clicking speed and efficiency, and can be used for a variety of purposes such as gaming.
+
+## Check it out
+
+Here is the following link to [see it online](https://github.lucianofelix.com.br/clicks/).
+It was made based on [this Pen at CodePen](https://codepen.io/FelixLuciano/pen/MWavXmy).
+
+
+## License
+
+This project is [MIT licensed](LICENSE)!
